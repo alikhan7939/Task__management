@@ -1,0 +1,61 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="bg-secondary bg-opacity-10 py-2">
+    <div class="container">
+        <h1> Sign Up</h1>
+    </div>
+</div>
+
+<div class="container py-5">
+    <from method="post">
+        <div class="mb-3">
+            <label class="form-label">Name</label>
+            <input type="text" class="from-control" id="name" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="from-control" id="email" placeholder="name@example.com" />
+        </div>
+        <div class="row g-3 align-items-center">
+            <div class="col-auto">
+                <label for="inputPassword6" class="col-form-label">Password</label>
+            </div>
+            <div class="col-auto">
+                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+            </div>
+            <div class="col-auto">
+                <span id="passwordHelpInline" class="form-text">
+                    Must be 8-20 characters long.
+                </span>
+            </div>
+        </div>
+        <div class="row g-3 align-items-center">
+            <div class="col-auto">
+                <label for="inputPassword6" class="col-form-label">Password Again</label>
+            </div>
+            <div class="col-auto">
+                <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
+            </div>
+            <div class="col-auto">
+                <span id="passwordHelpInline" class="form-text">
+                    Must be 8-20 characters long.
+                </span>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Phone Number</label>
+            <input type="number" class="from-control" id="phoneNumber" placeholder="09*********" />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Address</label>
+            <textarea class="form-control" id="address" rows="2" placeholder="Address"></textarea>
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-dark">submit</button>
+        </div>
+        </from>
+</div>
